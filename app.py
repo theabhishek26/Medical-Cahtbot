@@ -9,6 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 from src.prompt import *
 import os
+os.environ['SPM_NO_BUILD'] = 'TRUE'
 
 ###########
 from flask import Flask
